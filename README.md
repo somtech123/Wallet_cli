@@ -30,4 +30,20 @@ To verify if a seed phrase is correct, use the following command:
 $ dart bin/wallet_cli.dart verify --seed"<seed_phrase>"
 ```
 Replace <seed_phrase> with the seed phrase you want to verify. If the seed phrase is correct, it will output "Your seed phrase is correct"; otherwise, it will output "Incorrect seed phrase".
+
+## ToDo
+
+- Check Wallet balance
+- Send Crypto to aother Wallet
+- View Transcation history
+
+
+
+## Help
+if you are stuck you can run this command any time to find your way
+
+```bash
+$ dart bin/wallet_cli.dart help  
+```
+
     
